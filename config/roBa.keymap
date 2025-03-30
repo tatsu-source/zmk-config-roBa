@@ -40,6 +40,36 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        F5_DSP {
+            bindings = <&kp F5>;
+            key-positions = <21 8>;
+        };
+
+        Win+Tab {
+            bindings = <&kt RG(TAB)>;
+            key-positions = <32 33>;
+        };
+
+        ctrl+C {
+            bindings = <&kp LC(C)>;
+            key-positions = <21 20>;
+        };
+
+        ctrl+V {
+            bindings = <&kp LC(V)>;
+            key-positions = <21 19>;
+        };
+
+        ctrl+S {
+            bindings = <&kp LC(S)>;
+            key-positions = <21 18>;
+        };
+
+        ctrl+X {
+            bindings = <&kp LC(X)>;
+            key-positions = <21 32>;
+        };
     };
 
     macros {
