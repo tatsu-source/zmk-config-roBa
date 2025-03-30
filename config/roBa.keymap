@@ -47,7 +47,7 @@
         };
 
         Win+Tab {
-            bindings = <&kt RG(TAB)>;
+            bindings = <&kp RG(TAB)>;
             key-positions = <32 33>;
         };
 
