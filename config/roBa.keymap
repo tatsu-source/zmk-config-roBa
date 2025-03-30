@@ -80,6 +80,11 @@
             bindings = <&kp RA(RIGHT_ARROW)>;
             key-positions = <21 30>;
         };
+
+        ESC_Key {
+            bindings = <&kp ESC>;
+            key-positions = <41 21>;
+        };
     };
 
     macros {
