@@ -33,7 +33,7 @@
 
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
+            key-positions = <9 8>;
         };
 
         eq {
@@ -49,6 +49,11 @@
         Control+C {
             bindings = <&kp LC(C)>;
             key-positions = <21 20>;
+        };
+
+        Control+V {
+            bindings = <&kp LC(V)>;
+            key-positions = <21 19>;
         };
     };
 
