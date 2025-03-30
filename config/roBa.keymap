@@ -60,11 +60,6 @@
             bindings = <&kp LC(S)>;
             key-positions = <21 18>;
         };
-
-        ctrl+X {
-            bindings = <&kp LC(X)>;
-            key-positions = <21 32>;
-        };
     };
 
     macros {
