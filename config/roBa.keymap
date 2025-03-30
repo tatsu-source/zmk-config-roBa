@@ -60,6 +60,16 @@
             bindings = <&kp RG(V)>;
             key-positions = <21 7>;
         };
+
+        Home {
+            bindings = <&kp HOME>;
+            key-positions = <21 5>;
+        };
+
+        End {
+            bindings = <&kp END>;
+            key-positions = <21 17>;
+        };
     };
 
     macros {
