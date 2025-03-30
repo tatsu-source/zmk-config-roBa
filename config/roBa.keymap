@@ -41,8 +41,8 @@
             key-positions = <21 8>;
         };
 
-        Control+C {
-            bindings = <&kp LC(C)>;
+        Control_C {
+            bindings = <&kp RC(C)>;
             key-positions = <20 21>;
         };
     };
