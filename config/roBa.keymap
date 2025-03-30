@@ -46,11 +46,6 @@
             key-positions = <21 8>;
         };
 
-        Win+Tab {
-            bindings = <&kp RG(TAB)>;
-            key-positions = <32 33>;
-        };
-
         ctrl+C {
             bindings = <&kp LC(C)>;
             key-positions = <21 20>;
