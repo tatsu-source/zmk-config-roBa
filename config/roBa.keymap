@@ -50,6 +50,16 @@
             bindings = <&kp RC(V)>;
             key-positions = <21 19>;
         };
+
+        Control_X {
+            bindings = <&kp RC(X)>;
+            key-positions = <21 32>;
+        };
+
+        Win_V {
+            bindings = <&kp RG(V)>;
+            key-positions = <21 7>;
+        };
     };
 
     macros {
