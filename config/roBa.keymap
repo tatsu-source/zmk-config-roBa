@@ -42,7 +42,7 @@
         };
 
         Control+C {
-            bindings = <&kp RC(C)>;
+            bindings = <&kp LC(C)>;
             key-positions = <20 21>;
         };
     };
