@@ -70,6 +70,16 @@
             bindings = <&kp END>;
             key-positions = <21 17>;
         };
+
+        Alt_left {
+            bindings = <&kp RA(LEFT)>;
+            key-positions = <21 28>;
+        };
+
+        Alt_Right {
+            bindings = <&kp RA(RIGHT_ARROW)>;
+            key-positions = <21 30>;
+        };
     };
 
     macros {
