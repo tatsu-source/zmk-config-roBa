@@ -45,21 +45,6 @@
             bindings = <&kp F5>;
             key-positions = <21 8>;
         };
-
-        ctrl+C {
-            bindings = <&kp LC(C)>;
-            key-positions = <21 20>;
-        };
-
-        ctrl+V {
-            bindings = <&kp LC(V)>;
-            key-positions = <21 19>;
-        };
-
-        ctrl+S {
-            bindings = <&kp LC(S)>;
-            key-positions = <21 18>;
-        };
     };
 
     macros {
