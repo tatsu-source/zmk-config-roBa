@@ -33,7 +33,7 @@
 
         eq {
             bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+            key-positions = <2 3>;
         };
 
         F5_DSP {
@@ -61,12 +61,12 @@
             key-positions = <21 7>;
         };
 
-        Home {
+        Home_key {
             bindings = <&kp HOME>;
             key-positions = <21 5>;
         };
 
-        End {
+        End_key {
             bindings = <&kp END>;
             key-positions = <21 17>;
         };
