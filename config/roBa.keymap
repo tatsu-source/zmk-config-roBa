@@ -85,6 +85,11 @@
             bindings = <&kp ESC>;
             key-positions = <41 21>;
         };
+
+        Win_TAB {
+            bindings = <&kp LG(TAB)>;
+            key-positions = <33 32>;
+        };
     };
 
     macros {
