@@ -73,7 +73,7 @@
 
         Alt_left {
             bindings = <&kp RA(LEFT)>;
-            key-positions = <21 28>;
+            key-positions = <21 29>;
         };
 
         Alt_Right {
