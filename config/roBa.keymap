@@ -42,7 +42,7 @@
         };
 
         Zenhankaku_Key {
-            bindings = <&kp RC(LANG_ZENKAKUHANKAKU)>;
+            bindings = <&kp RC(LANGUAGE_5)>;
             key-positions = <20 21>;
         };
 
@@ -128,10 +128,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp HOME                 &kp F2               &kp RG(V)  &kp F5     &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp END                  &kp RC(S)            &kp RC(V)  &kp RC(C)  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &kp RA(LEFT_ARROW)       &kp RA(RIGHT_ARROW)  &trans     &kp RC(X)  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &kp LANG_ZENKAKUHANKAKU                                             &kp F12
+&trans  &trans  &trans  &trans  &trans                       &kp HOME            &kp F2               &kp RG(V)  &kp F5     &kp F5
+&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp END             &kp RC(S)            &kp RC(V)  &kp RC(C)  &kp F10
+&trans  &trans  &trans  &trans  &trans  &trans      &trans   &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans     &kp RC(X)  &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans      &trans   &kp LANG5                                                      &kp F12
             >;
         };
 
