@@ -184,10 +184,10 @@
 
         layer_7 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans            &kp RG(UP_ARROW)    &trans                   &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp RS(RG(LEFT))  &kp RG(DOWN_ARROW)  &kp RS(RG(RIGHT_ARROW))  &kp LANG_ZENKAKUHANKAKU
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans            &trans              &trans                   &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                 &trans
+&trans  &trans  &trans  &trans  &trans                      &trans                            &trans            &kp RG(UP_ARROW)    &trans                   &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                            &kp RS(RG(LEFT))  &kp RG(DOWN_ARROW)  &kp RS(RG(RIGHT_ARROW))  &kp INTERNATIONAL_4
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &mt INTERNATIONAL_4 INT_MUHENKAN  &trans            &trans              &kp LANG5                &kp LANG_ZENKAKUHANKAKU
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                                           &kp LANG_ZENKAKUHANKAKU
             >;
         };
     };
