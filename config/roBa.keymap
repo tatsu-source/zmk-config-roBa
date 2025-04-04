@@ -67,8 +67,8 @@
             key-positions = <21 8>;
         };
 
-        Zenhankaku_Key {
-            bindings = <&kp RC(LANG5)>;
+        TAB_Key {
+            bindings = <&kp RC(TAB)>;
             key-positions = <20 21>;
         };
 
@@ -145,8 +145,8 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                            &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp MINUS        &kp H        &kp J  &lt 5 K    &lt 3 L  &lt 1 ESC
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &kp SEMICOLON    &kp N        &kp M  &kp COMMA  &kp DOT  &lt 3 MINUS
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt 7 BACKSPACE  &lt 1 ENTER                             &kp DEL
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &kp SEMICOLON    &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT MINUS
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt 7 BACKSPACE  &lt 1 ENTER                             &mt RIGHT_CONTROL DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -172,10 +172,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                               &trans          &trans             &trans   &trans           &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans          &mt ESC F5      &kp RIGHT_CONTROL  &kp TAB  &kp RC(RS(TAB))  &kp GRAVE
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans          &trans          &trans             &trans   &kp RG(TAB)      &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &kp LANGUAGE_1  &kp LANGUAGE_2                                               &trans
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                               &trans            &trans            &trans          &trans           &trans
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans          &trans            &kp INT_MUHENKAN  &kp INT_HENKAN  &kp RC(RS(TAB))  &kp GRAVE
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans          &trans            &trans            &trans          &kp RG(TAB)      &trans
+&trans          &trans                  &trans          &trans                   &trans   &trans      &kp INT_HENKAN  &kp INT_MUHENKAN                                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
