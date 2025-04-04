@@ -68,7 +68,7 @@
         };
 
         TAB_Key {
-            bindings = <&kp RC(TAB)>;
+            bindings = <&kp TAB>;
             key-positions = <20 21>;
         };
 
@@ -172,9 +172,9 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                               &trans            &trans            &trans          &trans           &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans          &trans            &kp INT_MUHENKAN  &kp INT_HENKAN  &kp RC(RS(TAB))  &kp GRAVE
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans          &trans            &trans            &trans          &kp RG(TAB)      &trans
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                               &trans          &trans            &trans          &trans           &trans
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans          &trans          &kp INT_MUHENKAN  &kp INT_HENKAN  &kp RC(RS(TAB))  &kp GRAVE
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans          &trans          &trans            &trans          &kp RG(TAB)      &trans
 &trans          &trans                  &trans          &trans                   &trans   &trans      &kp LANGUAGE_1  &kp LANGUAGE_2                                                     &trans
             >;
 
