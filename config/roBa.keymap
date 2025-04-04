@@ -146,7 +146,7 @@
         macro_0621TH: macro_0621TH {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp H &kp A &kp G &kp I &kp UNDERSCORE &kp NUMBER_0 &kp NUMBER_6 &kp NUMBER_2 &kp NUMBER_1 &kp C_SHUFFLE &kp T &kp H>;
+            bindings = <&kp H &kp A &kp G &kp I &kp LS(0x87) &kp NUMBER_0 &kp NUMBER_6 &kp NUMBER_2 &kp NUMBER_1 &kp C_SHUFFLE &kp T &kp H>;
             label = "MACRO_0621TH";
         };
     };
