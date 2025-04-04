@@ -142,6 +142,13 @@
             bindings = <&kp NUMBER_0 &kp NUMBER_0>;
             label = "MACRO_00";
         };
+
+        macro_0621TH: macro_0621TH {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp A &kp G &kp I &kp UNDERSCORE &kp NUMBER_0 &kp NUMBER_6 &kp NUMBER_2 &kp NUMBER_1 &kp C_SHUFFLE &kp T &kp H>;
+            label = "MACRO_0621TH";
+        };
     };
 
     behaviors {
@@ -180,18 +187,18 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp COLON                                                     &kp EQUAL          &kp CARET         &kp PLUS         &kp ASTERISK       &kp LEFT_PARENTHESIS
-&kp SLASH                   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp DOUBLE_QUOTES  &kp LC(LA(KP_NUMBER_0))      &kp LS(0x87)  &kp EXCLAMATION    &kp LEFT_BRACKET  &kp HASH         &kp PIPE           &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD         &kp UNDER                    &trans        &kp RIGHT_BRACKET  &kp BACKSLASH     &kp RIGHT_BRACE  &kp RIGHT_BRACE   &kp BACKSLASH
-&trans                      &kp NUMBER_0  &macro_00     &trans        &trans             &trans                       &trans        &trans                                                                   &kp LS(0x89)
+&kp MINUS                   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp COLON                                                     &kp EQUAL          &kp CARET         &kp PLUS         &kp ASTERISK     &kp LEFT_PARENTHESIS
+&kp SLASH                   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp DOUBLE_QUOTES  &kp LC(LA(KP_NUMBER_0))      &kp LS(0x87)  &kp EXCLAMATION    &kp LEFT_BRACKET  &kp HASH         &kp PIPE         &kp PERCENT
+&mt LEFT_SHIFT KP_NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD         &kp UNDER                    &trans        &kp RIGHT_BRACKET  &kp BACKSLASH     &kp RIGHT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH
+&trans                      &kp NUMBER_0  &macro_00     &trans        &trans             &trans                       &trans        &trans                                                                 &kp LS(0x89)
             >;
         };
 
         ARROW {
             bindings = <
 &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                               &trans          &trans            &trans          &trans           &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans          &trans          &kp INT_MUHENKAN  &kp INT_HENKAN  &kp RC(RS(TAB))  &kp GRAVE
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans          &trans          &trans            &trans          &kp RG(TAB)      &trans
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans          &kp UP_ARROW    &kp INT_MUHENKAN  &kp INT_HENKAN  &kp RC(RS(TAB))  &kp GRAVE
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &trans          &kp RG(TAB)      &trans
 &trans          &trans                  &trans          &trans                   &trans   &trans      &kp LANGUAGE_1  &kp LANGUAGE_2                                                     &trans
             >;
 
@@ -227,10 +234,10 @@
 
         layer_7 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans                            &trans            &kp RG(UP_ARROW)    &trans                   &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                            &kp RS(RG(LEFT))  &kp RG(DOWN_ARROW)  &kp RS(RG(RIGHT_ARROW))  &kp GRAVE
-&trans  &trans  &trans  &trans  &trans  &trans      &kp C   &mt INTERNATIONAL_4 INT_MUHENKAN  &kp INT_HENKAN    &kp INT_MUHENKAN    &kp LANGUAGE_6           &to_layer_0 INT_MUHENKAN
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                                           &to_layer_0 INT_HENKAN
+&trans  &trans  &trans  &trans  &trans                             &trans                            &trans            &kp RG(UP_ARROW)    &trans                   &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans                            &kp RS(RG(LEFT))  &kp RG(DOWN_ARROW)  &kp RS(RG(RIGHT_ARROW))  &kp GRAVE
+&trans  &trans  &trans  &trans  &trans  &trans      &macro_0621TH  &mt INTERNATIONAL_4 INT_MUHENKAN  &kp INT_HENKAN    &kp INT_MUHENKAN    &kp LANGUAGE_6           &to_layer_0 INT_MUHENKAN
+&trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans                                                                                           &to_layer_0 INT_HENKAN
             >;
         };
     };
