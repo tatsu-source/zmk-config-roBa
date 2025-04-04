@@ -121,6 +121,11 @@
             bindings = <&kp MINUS>;
             key-positions = <19 18>;
         };
+
+        SP-Key {
+            bindings = <&kp SPACE>;
+            key-positions = <7 6>;
+        };
     };
 
     macros {
