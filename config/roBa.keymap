@@ -116,6 +116,11 @@
             bindings = <&kp LG(TAB)>;
             key-positions = <33 32>;
         };
+
+        bar-key {
+            bindings = <&kp MINUS>;
+            key-positions = <19 18>;
+        };
     };
 
     macros {
