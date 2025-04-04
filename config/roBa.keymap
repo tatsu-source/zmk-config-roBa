@@ -169,7 +169,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                            &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp MINUS        &kp H        &kp J  &lt 5 K    &lt 3 L  &lt 1 ESC
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &kp SEMICOLON    &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &kp SEMICOLON    &kp N        &kp M  &kp COMMA  &kp DOT  &lt 8 MINUS
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt 7 BACKSPACE  &lt 2 ENTER                             &mt RIGHT_CONTROL DEL
             >;
 
@@ -238,6 +238,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans                            &kp RS(RG(LEFT))  &kp RG(DOWN_ARROW)  &kp RS(RG(RIGHT_ARROW))  &kp GRAVE
 &trans  &trans  &trans  &trans  &trans  &trans      &macro_0621TH  &mt INTERNATIONAL_4 INT_MUHENKAN  &kp INT_HENKAN    &kp INT_MUHENKAN    &kp LANGUAGE_6           &to_layer_0 INT_MUHENKAN
 &trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans                                                                                           &to_layer_0 INT_HENKAN
+            >;
+        };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans             &trans           &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp RIGHT_CONTROL  &kp TAB          &kp RS(RIGHT_CONTROL)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp TAB            &kp RIGHT_SHIFT  &kp RG(TAB)            &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                             &trans
             >;
         };
     };
