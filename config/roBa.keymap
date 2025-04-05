@@ -112,11 +112,6 @@
             key-positions = <41 21>;
         };
 
-        Win_TAB {
-            bindings = <&kp LG(TAB)>;
-            key-positions = <33 32>;
-        };
-
         bar-key {
             bindings = <&kp MINUS>;
             key-positions = <19 18>;
@@ -133,7 +128,7 @@
         };
 
         hankakuSP-key {
-            bindings = <&macro_hankakuSP>;
+            bindings = <&kp RS(SPACE)>;
             key-positions = <6 7 8>;
         };
 
