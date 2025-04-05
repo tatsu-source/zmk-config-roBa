@@ -154,15 +154,14 @@
         mkp_exit_AML: mkp_exit_AML {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-
             bindings =
-          <&macro_press>,
-          <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
-          <&macro_pause_for_release>,
-          <&macro_release>,
-          <&macro_param_1tol &mkp MACRO_PLACEHOLDER>,
-          <&macro_tap>,
-          <&s1 4>;
+                <&macro_press>,
+                <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&macro_param_1tol &mkp MACRO_PLACEHOLDER>,
+                <&macro_tap>,
+                <&s1 4>;
 
             label = "MKP_EXIT_AML";
         };
@@ -179,13 +178,6 @@
             #binding-cells = <0>;
             bindings = <&kp H &kp A &kp G &kp I &kp LS(0x87) &kp NUMBER_0 &kp NUMBER_6 &kp NUMBER_2 &kp NUMBER_1 &kp RS(T) &kp RS(H)>;
             label = "MACRO_0621TH";
-        };
-
-        macro_hankakuSP: macro_hankakuSP {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp RS(SPACE)>;
-            label = "MACRO_HANKAKUSP";
         };
     };
 
@@ -248,7 +240,7 @@
 &to_layer_0 Q  &to_layer_0 W  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                      &to_layer_0 Y  &to_layer_0 U  &to_layer_0 I  &to_layer_0 O  &to_layer_0 P
 &to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 F  &trans      &trans  &to_layer_0 H  &mkp MB1       &mkp MB3       &mkp MB2       &trans
 &to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans      &trans  &to_layer_0 N  &mkp MB4       &trans         &mkp MB5       &trans
-&trans         &trans         &trans         &trans         &trans         &trans      &trans  &trans                                                      &trans
+&kp A          &trans         &trans         &trans         &trans         &trans      &trans  &trans                                                      &trans
             >;
         };
 
