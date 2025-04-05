@@ -136,6 +136,11 @@
             bindings = <&macro_hankakuSP>;
             key-positions = <6 7 8>;
         };
+
+        CntALL-Key {
+            bindings = <&kp RC(A)>;
+            key-positions = <41 33>;
+        };
     };
 
     macros {
