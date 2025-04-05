@@ -159,7 +159,7 @@
                 <&macro_param_ltol &mkp MACRO_PLACEHOLDER>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&macro_param_lto1 &mkp MACRO_PLACEHOLDER>,
+                <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
                 <&macro_tap>,
                 <&sl 4>;
 
