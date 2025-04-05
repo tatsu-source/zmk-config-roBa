@@ -157,8 +157,7 @@
                 <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>,
                 <&macro_tap>,
                 <&sl 4>;
-
-            label = "MKP_EXIT_AML";
+                 label = "MKP_EXIT_AML";
         };
 
         macro_00: macro_00 {
