@@ -131,6 +131,11 @@
             bindings = <&kp RSHIFT>;
             key-positions = <32 33>;
         };
+
+        hankakuSP-key {
+            bindings = <&macro_hankakuSP>;
+            key-positions = <6 7 8>;
+        };
     };
 
     macros {
@@ -153,6 +158,13 @@
             #binding-cells = <0>;
             bindings = <&kp H &kp A &kp G &kp I &kp LS(0x87) &kp NUMBER_0 &kp NUMBER_6 &kp NUMBER_2 &kp NUMBER_1 &kp RS(T) &kp RS(H)>;
             label = "MACRO_0621TH";
+        };
+
+        macro_hankakuSP: macro_hankakuSP {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RS(SPACE)>;
+            label = "MACRO_HANKAKUSP";
         };
     };
 
