@@ -144,8 +144,8 @@
         };
 
         zenhankaku_kirikae_key {
-            bindings = <&kp GRAVE>;
-            key-positions = <41 21>;
+            bindings = <&kp LANG_ZENKAKUHANKAKU>;
+            key-positions = <21 41>;
         };
     };
 
