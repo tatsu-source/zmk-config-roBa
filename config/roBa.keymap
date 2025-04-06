@@ -184,7 +184,7 @@
         macro_ESC_zenhankaku: macro_ESC_zenhankaku {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp ESC &kp INT_HENKAN>;
+            bindings = <&kp ESC &kp GRAVE>;
             label = "MACRO_ESC_ZENHANKAKU";
         };
     };
