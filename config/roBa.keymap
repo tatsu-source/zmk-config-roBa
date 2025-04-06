@@ -281,7 +281,7 @@
         layer_7 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                             &trans                            &trans            &kp RG(UP_ARROW)    &trans                   &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &kp B          &trans                            &kp RS(RG(LEFT))  &kp RG(DOWN_ARROW)  &kp RS(RG(RIGHT_ARROW))  &kp GRAVE
+&trans  &trans  &trans  &trans  &trans  &trans      &kp C          &trans                            &kp RS(RG(LEFT))  &kp RG(DOWN_ARROW)  &kp RS(RG(RIGHT_ARROW))  &kp GRAVE
 &trans  &trans  &trans  &trans  &trans  &trans      &macro_0621TH  &mt INTERNATIONAL_4 INT_MUHENKAN  &kp INT_HENKAN    &kp INT_MUHENKAN    &kp LANGUAGE_6           &to_layer_0 INT_MUHENKAN
 &trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans                                                                                           &to_layer_0 INT_HENKAN
             >;
