@@ -139,7 +139,7 @@
         };
 
         zenhankaku_key {
-            bindings = <&kp INT_HENKAN>;
+            bindings = <&kp GRAVE>;
             key-positions = <21 20>;
         };
     };
