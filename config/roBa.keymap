@@ -125,7 +125,7 @@
 
         Shift_key {
             bindings = <&kp RSHIFT>;
-            key-positions = <32 33>;
+            key-positions = <32 33 21 33 42>;
         };
 
         hankakuSP-key {
@@ -139,7 +139,7 @@
         };
 
         zenhankaku_key {
-            bindings = <&kp GRAVE>;
+            bindings = <&macro_ESC_zenhankaku>;
             key-positions = <21 20>;
         };
     };
@@ -179,6 +179,13 @@
             #binding-cells = <0>;
             bindings = <&kp H &kp A &kp G &kp I &kp LS(0x87) &kp NUMBER_0 &kp NUMBER_6 &kp NUMBER_2 &kp NUMBER_1 &kp RS(T) &kp RS(H)>;
             label = "MACRO_0621TH";
+        };
+
+        macro_ESC_zenhankaku: macro_ESC_zenhankaku {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp ESC &kp INT_HENKAN>;
+            label = "MACRO_ESC_ZENHANKAKU";
         };
     };
 
