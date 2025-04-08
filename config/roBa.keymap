@@ -294,10 +294,10 @@
 
         layer_8 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans             &trans           &trans                 &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp RIGHT_CONTROL  &kp TAB          &kp RS(RIGHT_CONTROL)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &kp A   &trans  &kp TAB            &kp RIGHT_SHIFT  &kp RG(TAB)            &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                             &trans
+&trans  &trans  &trans  &trans  &trans                      &trans         &trans             &trans           &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans         &kp RIGHT_CONTROL  &kp TAB          &kp RS(RIGHT_CONTROL)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp A   &kp RIGHT_ALT  &kp TAB            &kp RIGHT_SHIFT  &kp RG(TAB)            &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                    &trans
             >;
         };
     };
