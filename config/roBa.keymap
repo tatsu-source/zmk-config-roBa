@@ -148,7 +148,7 @@
             key-positions = <21 41>;
         };
 
-        control-Z-kay-2 {
+        motoni-modosu {
             bindings = <&kp RC(Z)>;
             key-positions = <17 18>;
         };
