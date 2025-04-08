@@ -147,11 +147,6 @@
             bindings = <&kp GRAVE>;
             key-positions = <21 41>;
         };
-
-        Control-Z-kay2 {
-            bindings = <&kp RC(Z)>;
-            key-positions = <5 6>;
-        };
     };
 
     macros {
