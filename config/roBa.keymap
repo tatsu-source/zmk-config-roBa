@@ -197,6 +197,13 @@
             bindings = <&kp ESC &kp GRAVE>;
             label = "MACRO_ESC_ZENHANKAKU";
         };
+
+        macro_0621: macro_0621 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp NUMBER_0 &kp NUMBER_6 &kp NUMBER_2 &kp NUMBER_1>;
+            label = "MACRO_0621";
+        };
     };
 
     behaviors {
@@ -234,10 +241,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp HOME            &kp RC(Z)            &kp RG(V)  &kp F5     &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp END             &kp RC(S)            &kp RC(V)  &kp RC(C)  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp RC(A)  &kp RC(X)  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &kp LANGUAGE_5                                                 &kp F12
+&trans  &trans  &trans  &trans  &trans                             &kp HOME            &kp RC(Z)            &kp RG(V)  &kp F5     &kp F5
+&trans  &trans  &trans  &trans  &trans  &trans      &macro_0621TH  &kp END             &kp RC(S)            &kp RC(V)  &kp RC(C)  &kp F10
+&trans  &trans  &trans  &trans  &trans  &trans      &macro_0621    &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp RC(A)  &kp RC(X)  &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans      &trans         &kp LANGUAGE_5                                                 &kp F12
             >;
         };
 
