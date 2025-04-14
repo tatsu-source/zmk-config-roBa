@@ -261,7 +261,7 @@
             bindings = <
 &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                               &trans          &kp RC(LEFT_ARROW)  &kp RC(RIGHT_ARROW)  &trans           &trans
 &kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans          &kp UP_ARROW    &kp INT_MUHENKAN    &kp INT_HENKAN       &kp RC(RS(TAB))  &kp GRAVE
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW     &trans               &kp RG(TAB)      &trans
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW     &trans               &kp RG(TAB)      &kp BACKSPACE
 &trans          &trans                  &trans          &trans                   &trans   &trans      &kp LANGUAGE_1  &kp LANGUAGE_2                                                            &trans
             >;
 
