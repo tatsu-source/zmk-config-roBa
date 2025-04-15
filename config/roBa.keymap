@@ -244,7 +244,7 @@
             bindings = <
 &kp Q               &kp W         &kp E         &kp R                        &kp T                                                                        &kp Y        &kp U  &lt 5 I      &kp O          &mt RSHFT P
 &mt LEFT_SHIFT A    &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &mt RIGHT_SHIFT MINUS        &kp H        &kp J  &lt 5 K      &lt 3 L        &lt 1 ESC
-&mt LEFT_CONTROL Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &mt RIGHT_CONTROL SEMICOLON  &kp N        &kp M  &lt 6 COMMA  &mt RG(D) DOT  &lt 8 MINUS
+&mt LEFT_CONTROL Z  &kp X         &kp C         &kp V                        &kp B        &kp SINGLE_QUOTE                   &mt RIGHT_CONTROL SEMICOLON  &kp N        &kp M  &lt 6 COMMA  &mt RG(D) DOT  &lt 8 MINUS
 &kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt 7 BACKSPACE              &lt 2 ENTER                                     &mt RIGHT_CONTROL DEL
             >;
 
