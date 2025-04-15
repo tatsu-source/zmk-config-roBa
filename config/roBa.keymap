@@ -148,9 +148,9 @@
             key-positions = <21 41>;
         };
 
-        motoni-modosu {
+        controlZ {
             bindings = <&kp RC(Z)>;
-            key-positions = <17 18>;
+            key-positions = <19 18>;
         };
     };
 
@@ -203,6 +203,13 @@
             #binding-cells = <0>;
             bindings = <&kp NUMBER_0 &kp NUMBER_6 &kp NUMBER_2 &kp NUMBER_1>;
             label = "MACRO_0621";
+        };
+
+        macro_J: macro_J {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RC(Z)>;
+            label = "MACRO_J";
         };
     };
 
