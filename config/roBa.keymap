@@ -318,10 +318,10 @@
 
         layer_8 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &kp RC(D)      &trans             &trans           &trans                 &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp RA(ENTER)  &kp RIGHT_CONTROL  &kp TAB          &kp RS(RIGHT_CONTROL)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &kp A   &kp RIGHT_ALT  &kp TAB            &kp RIGHT_SHIFT  &kp RG(TAB)            &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                    &trans
+&trans  &trans  &trans  &trans  &trans                             &kp RC(D)      &kp RC(PAGE_DOWN)  &kp RC(PAGE_UP)  &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp PAGE_UP    &kp RA(ENTER)  &kp RIGHT_CONTROL  &kp TAB          &kp RS(RIGHT_CONTROL)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp PAGE_DOWN  &kp RIGHT_ALT  &kp TAB            &kp RIGHT_SHIFT  &kp RG(TAB)            &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans                                                                    &trans
             >;
         };
     };
