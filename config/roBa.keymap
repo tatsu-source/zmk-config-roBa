@@ -123,8 +123,8 @@
             key-positions = <7 6>;
         };
 
-        Shift_key {
-            bindings = <&kp RSHIFT>;
+        CNT_ALT_TAB {
+            bindings = <&kp RA(RC(TAB))>;
             key-positions = <32 33 33>;
         };
 
