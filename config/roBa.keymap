@@ -138,11 +138,6 @@
             key-positions = <41 33>;
         };
 
-        CNT_ALT_TAB_key {
-            bindings = <&kp RA(RC(TAB))>;
-            key-positions = <21 20>;
-        };
-
         zenhankaku_kirikae_key {
             bindings = <&kp GRAVE>;
             key-positions = <21 41>;
@@ -156,6 +151,11 @@
         ControlY {
             bindings = <&kp RC(Y)>;
             key-positions = <18 21>;
+        };
+
+        Cnt_Alt_Tab {
+            bindings = <&kp RA(RC(TAB))>;
+            key-positions = <32 33>;
         };
     };
 
