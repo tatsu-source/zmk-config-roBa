@@ -152,11 +152,6 @@
             bindings = <&kp RC(Y)>;
             key-positions = <18 21>;
         };
-
-        Cnt_Alt_Tab {
-            bindings = <&kp RA(RC(TAB))>;
-            key-positions = <32 33>;
-        };
     };
 
     macros {
