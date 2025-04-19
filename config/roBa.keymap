@@ -152,6 +152,11 @@
             bindings = <&kp RC(Y)>;
             key-positions = <18 21>;
         };
+
+        Zenhankaku_key {
+            bindings = <&kp GRAVE>;
+            key-positions = <21 20>;
+        };
     };
 
     macros {
