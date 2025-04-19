@@ -272,8 +272,8 @@
         ARROW {
             bindings = <
 &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                               &trans          &kp RC(RS(LEFT_ARROW))  &kp RC(RS(RIGHT_ARROW))  &trans           &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans          &kp UP_ARROW    &kp INT_MUHENKAN        &kp INT_HENKAN           &kp RC(RS(TAB))  &kp GRAVE
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW         &trans                   &kp RG(TAB)      &kp BACKSPACE
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &kp PAGE_UP     &kp UP_ARROW    &kp INT_MUHENKAN        &kp INT_HENKAN           &kp RC(RS(TAB))  &kp GRAVE
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &kp PAGE_DOWN   &kp DOWN_ARROW  &kp LEFT_ARROW          &kp RIGHT_ARROW          &kp RG(TAB)      &kp BACKSPACE
 &trans          &trans                  &trans          &trans                   &trans   &trans      &kp LANGUAGE_1  &kp LANGUAGE_2                                                                    &trans
             >;
 
@@ -283,7 +283,7 @@
         MOUSE {
             bindings = <
 &to_layer_0 Q  &to_layer_0 W  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                      &to_layer_0 Y  &to_layer_0 U      &trans    &trans    &to_layer_0 P
-&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &trans  &to_layer_0 H  &mkp_exit_AML MB1  &mkp MB3  &mkp MB2  &trans
+&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &trans  &to_layer_0 H  &mkp_exit_AML MB1  &mkp MB3  &mkp MB2  &to_layer_0 ESC
 &to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans      &trans  &to_layer_0 N  &mkp MB4           &trans    &mkp MB5  &trans
 &trans         &trans         &trans         &trans         &trans         &trans      &trans  &trans                                                &trans
             >;
