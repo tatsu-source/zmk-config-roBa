@@ -138,8 +138,8 @@
             key-positions = <41 33>;
         };
 
-        zenhankaku_key {
-            bindings = <&macro_ESC_zenhankaku>;
+        CNT_ALT_TAB_key {
+            bindings = <&kp RA(RC(TAB))>;
             key-positions = <21 20>;
         };
 
