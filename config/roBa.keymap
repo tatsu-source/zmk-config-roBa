@@ -242,10 +242,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W         &kp E         &kp R                        &kp T                                                                        &kp Y        &kp U  &lt 5 I    &lt 5 O        &mt RSHFT P
-&mt LEFT_SHIFT A    &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &mt RIGHT_SHIFT MINUS        &kp H        &kp J  &lt 5 K    &lt 3 L        &lt 1 ESC
-&mt LEFT_CONTROL Z  &kp X         &kp C         &kp V                        &kp B        &kp SINGLE_QUOTE                   &mt RIGHT_CONTROL SEMICOLON  &kp N        &kp M  &lt 6 ESC  &mt RG(D) DOT  &lt 8 ESC
-&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt 7 BACKSPACE              &lt 2 ENTER                                   &mt RIGHT_CONTROL DEL
+&kp Q               &kp W         &kp E         &kp R                        &kp T                                                                        &kp Y        &kp U        &lt 5 I    &lt 5 O    &mt RSHFT P
+&mt LEFT_SHIFT A    &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &mt RIGHT_SHIFT MINUS        &kp H        &kp J        &lt 5 K    &lt 3 L    &lt 1 ESC
+&mt LEFT_CONTROL Z  &kp X         &kp C         &kp V                        &kp B        &kp SINGLE_QUOTE                   &mt RIGHT_CONTROL SEMICOLON  &kp N        &mt RG(D) M  &lt 6 ESC  &lt 5 DOT  &lt 8 ESC
+&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt 7 BACKSPACE              &lt 2 ENTER                                     &mt RIGHT_CONTROL DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -265,7 +265,7 @@
 &kp MINUS                   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp COLON                                                     &kp EQUAL          &kp CARET         &kp PLUS         &kp ASTERISK     &kp LEFT_PARENTHESIS
 &kp SLASH                   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp DOUBLE_QUOTES  &kp LC(LA(KP_NUMBER_0))      &kp LS(0x87)  &kp EXCLAMATION    &kp LEFT_BRACKET  &kp HASH         &kp PIPE         &kp PERCENT
 &mt LEFT_SHIFT KP_NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD         &kp UNDER                    &kp QUESTION  &kp RIGHT_BRACKET  &kp BACKSLASH     &kp RIGHT_BRACE  &kp RIGHT_BRACE  &kp 0x89
-&trans                      &kp NUMBER_0  &macro_00     &trans        &trans             &trans                       &trans        &trans                                                                 &kp LS(0x89)
+&trans                      &kp NUMBER_0  &macro_00     &trans        &trans             &trans                       &kp COMMA     &kp MINUS                                                              &kp LS(0x89)
             >;
         };
 
