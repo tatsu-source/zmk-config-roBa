@@ -157,6 +157,11 @@
             bindings = <&kp GRAVE>;
             key-positions = <21 20>;
         };
+
+        conma {
+            bindings = <&kp COMMA>;
+            key-positions = <32 31>;
+        };
     };
 
     macros {
