@@ -254,7 +254,7 @@
             bindings = <
 &kp Q               &kp W         &kp E         &kp R                        &kp T                                                                        &kp Y        &kp U        &lt 5 I    &lt 5 O    &mt RSHFT P
 &mt LEFT_SHIFT A    &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &mt RIGHT_SHIFT MINUS        &kp H        &kp J        &lt 5 K    &lt 3 L    &lt 1 ESC
-&mt LEFT_CONTROL Z  &kp X         &kp C         &kp V                        &kp B        &kp SINGLE_QUOTE                   &mt RIGHT_CONTROL SEMICOLON  &kp N        &mt RG(D) M  &lt 6 ESC  &lt 5 DOT  &lt 8 ESC
+&mt LEFT_CONTROL Z  &kp X         &kp C         &kp V                        &kp B        &kp SINGLE_QUOTE                   &mt RIGHT_CONTROL SEMICOLON  &kp N        &mt RG(D) M  &lt 6 ESC  &lt 1 DOT  &lt 8 ESC
 &kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt 7 BACKSPACE              &lt 2 ENTER                                     &mt RIGHT_CONTROL DEL
             >;
 
@@ -265,8 +265,8 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                             &kp HOME            &kp RC(Z)            &kp RG(V)  &kp F5     &kp F5
 &trans  &trans  &trans  &trans  &trans  &trans      &macro_0621TH  &kp END             &kp RC(S)            &kp RC(V)  &kp RC(C)  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &macro_0621    &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp RC(A)  &kp RC(X)  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &kp COMMA      &kp LANGUAGE_5                                                 &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans      &macro_0621    &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp RC(A)  &kp RC(X)  &mkp MB4
+&trans  &trans  &trans  &trans  &trans  &trans      &kp COMMA      &kp LANGUAGE_5                                                 &mkp MB5
             >;
         };
 
@@ -293,7 +293,7 @@
         MOUSE {
             bindings = <
 &to_layer_0 Q  &to_layer_0 W  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                      &to_layer_0 Y  &to_layer_0 U  &trans    &trans    &to_layer_0 P
-&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &trans  &to_layer_0 H  &mkp MB1       &mkp MB3  &mkp MB2  &trans
+&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &trans  &to_layer_0 H  &mkp MB1       &trans    &mkp MB2  &trans
 &to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans      &trans  &to_layer_0 N  &mkp MB4       &mkp MB1  &mkp MB2  &trans
 &trans         &trans         &trans         &trans         &trans         &trans      &trans  &trans                                            &mkp MB5
             >;
