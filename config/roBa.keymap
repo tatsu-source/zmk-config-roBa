@@ -162,6 +162,11 @@
             bindings = <&kp COMMA>;
             key-positions = <32 31>;
         };
+
+        ESC2 {
+            bindings = <&kp ESC>;
+            key-positions = <9 8>;
+        };
     };
 
     macros {
