@@ -268,6 +268,8 @@
 &trans  &trans  &trans  &trans  &trans  &mkp MB2      &macro_0621    &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp RC(A)  &kp RC(X)  &mkp MB4
 &trans  &trans  &trans  &trans  &trans  &trans        &kp COMMA      &kp LANGUAGE_5                                                 &mkp MB5
             >;
+
+            sensor-bindings = <&inc_dec_kp HOME END>;
         };
 
         NUM {
