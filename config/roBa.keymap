@@ -169,7 +169,7 @@
         };
 
         L5Scr {
-            bindings = <&to 5>;
+            bindings = <&lt 5 ESC>;
             key-positions = <33 32>;
         };
     };
