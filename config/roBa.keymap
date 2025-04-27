@@ -252,7 +252,7 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W         &kp E         &kp R                        &kp T                                                                        &kp Y        &kp U        &lt 5 I    &lt 5 O    &mt RSHFT P
+&kp Q               &kp W         &kp E         &kp R                        &kp T                                                                        &kp Y        &kp U        &lt 5 I    &lt 1 O    &mt RSHFT P
 &mt LEFT_SHIFT A    &kp S         &kp D         &kp F                        &kp G        &mkp MB2                           &mt RIGHT_SHIFT MINUS        &kp H        &kp J        &lt 5 K    &lt 3 L    &lt 1 ESC
 &mt LEFT_CONTROL Z  &kp X         &kp C         &kp V                        &kp B        &mkp MB1                           &mt RIGHT_CONTROL SEMICOLON  &kp N        &mt RG(D) M  &lt 6 ESC  &lt 1 DOT  &lt 8 ESC
 &kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt 7 BACKSPACE              &lt 2 ENTER                                     &mt RIGHT_CONTROL DEL
@@ -263,8 +263,8 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                               &kp HOME            &kp RC(Z)            &kp RG(V)  &kp F5     &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans        &macro_0621TH  &kp END             &kp RC(S)            &kp RC(V)  &kp RC(C)  &kp F10
+&trans  &trans  &trans  &trans  &trans                               &kp HOME            &kp RC(Z)            &kp RG(V)  &kp F5     &kp HOME
+&trans  &trans  &trans  &trans  &trans  &trans        &macro_0621TH  &kp END             &kp RC(S)            &kp RC(V)  &kp RC(C)  &kp END
 &trans  &trans  &trans  &trans  &trans  &mkp MB2      &macro_0621    &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp RC(A)  &kp RC(X)  &mkp MB4
 &trans  &trans  &trans  &trans  &trans  &trans        &kp COMMA      &kp LANGUAGE_5                                                 &mkp MB5
             >;
