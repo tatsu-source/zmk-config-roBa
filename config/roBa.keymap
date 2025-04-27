@@ -263,10 +263,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                             &kp HOME            &kp RC(Z)            &kp RG(V)  &kp F5     &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &macro_0621TH  &kp END             &kp RC(S)            &kp RC(V)  &kp RC(C)  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &macro_0621    &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp RC(A)  &kp RC(X)  &mkp MB4
-&trans  &trans  &trans  &trans  &trans  &trans      &kp COMMA      &kp LANGUAGE_5                                                 &mkp MB5
+&trans  &trans  &trans  &trans  &trans                               &kp HOME            &kp RC(Z)            &kp RG(V)  &kp F5     &kp F5
+&trans  &trans  &trans  &trans  &trans  &trans        &macro_0621TH  &kp END             &kp RC(S)            &kp RC(V)  &kp RC(C)  &kp F10
+&trans  &trans  &trans  &trans  &trans  &mkp MB2      &macro_0621    &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp RC(A)  &kp RC(X)  &mkp MB4
+&trans  &trans  &trans  &trans  &trans  &trans        &kp COMMA      &kp LANGUAGE_5                                                 &mkp MB5
             >;
         };
 
