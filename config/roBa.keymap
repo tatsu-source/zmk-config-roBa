@@ -172,6 +172,11 @@
             bindings = <&lt 5 ESC>;
             key-positions = <33 32>;
         };
+
+        L5Scr2 {
+            bindings = <&lt 5 ESC>;
+            key-positions = <31 30>;
+        };
     };
 
     macros {
