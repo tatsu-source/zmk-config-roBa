@@ -159,7 +159,7 @@
         };
 
         L5Scr2 {
-            bindings = <&mkp MB5>;
+            bindings = <&lt 5 ESCAPE>;
             key-positions = <32 31>;
         };
 
@@ -179,7 +179,7 @@
         };
 
         L5Scr3 {
-            bindings = <&mkp MB5>;
+            bindings = <&lt 5 ESCAPE>;
             key-positions = <26 27>;
         };
     };
