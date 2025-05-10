@@ -294,6 +294,8 @@
 &mt LEFT_SHIFT KP_NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD         &kp UNDER                    &kp QUESTION  &kp RIGHT_BRACKET  &kp BACKSLASH     &kp RIGHT_BRACE  &kp RIGHT_BRACE  &kp 0x89
 &trans                      &kp NUMBER_0  &macro_00     &trans        &trans             &kp SINGLE_QUOTE             &kp COMMA     &kp MINUS                                                              &kp LS(0x89)
             >;
+
+            sensor-bindings = <&inc_dec_kp LA(LEFT_ARROW) LA(RIGHT_ARROW)>;
         };
 
         ARROW {
