@@ -267,10 +267,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W         &kp E         &kp R                        &kp T                                                                        &kp Y        &kp U        &lt 5 I    &lt 1 O       &mt RSHFT P
-&mt LEFT_SHIFT A    &kp S         &kp D         &kp F                        &kp G        &mkp MB2                           &mt RIGHT_SHIFT MINUS        &kp H        &kp J        &lt 5 K    &lt 3 L       &lt 1 ESC
-&mt LEFT_CONTROL Z  &kp X         &kp C         &kp V                        &kp B        &mkp MB1                           &mt RIGHT_CONTROL SEMICOLON  &kp N        &mt RG(D) M  &lt 6 ESC  &lt 1 ESCAPE  &lt 8 DOT
-&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt 7 BACKSPACE              &lt 2 ENTER                                        &mt RIGHT_CONTROL COMMA
+&kp Q               &kp W           &kp E             &kp R                        &kp T                                                                        &kp Y        &kp U        &lt 5 I    &lt 1 O       &mt RSHFT P
+&mt LEFT_SHIFT A    &kp S           &kp D             &kp F                        &kp G        &mkp MB2                           &mt RIGHT_SHIFT MINUS        &kp H        &kp J        &lt 5 K    &lt 3 L       &lt 1 ESC
+&mt LEFT_CONTROL Z  &kp X           &kp C             &kp V                        &kp B        &mkp MB1                           &mt RIGHT_CONTROL SEMICOLON  &kp N        &mt RG(D) M  &lt 6 ESC  &lt 1 ESCAPE  &lt 8 DOT
+&kp LCTRL           &kp LEFT_SHIFT  &kp LG(LEFT_ALT)  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt 7 BACKSPACE              &lt 2 ENTER                                        &mt RIGHT_CONTROL COMMA
             >;
 
             sensor-bindings = <&scroll_up_down>;
