@@ -185,7 +185,7 @@
 
         ESC2 {
             bindings = <&kp ESCAPE>;
-            key-positions = <20 21>;
+            key-positions = <20 19 18>;
         };
     };
 
