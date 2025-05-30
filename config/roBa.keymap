@@ -182,6 +182,11 @@
             bindings = <&lt 5 ESCAPE>;
             key-positions = <26 27>;
         };
+
+        ESC2 {
+            bindings = <&kp ESCAPE>;
+            key-positions = <20 21>;
+        };
     };
 
     macros {
