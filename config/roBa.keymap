@@ -262,6 +262,8 @@
             #binding-cells = <0>;
             bindings = <&mkp MB2 &mkp MB2 &mkp MB2>;
             label = "R_3CRIC_MACRO";
+            wait-ms = <1>;
+            tap-ms = <1>;
         };
     };
 
