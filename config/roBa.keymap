@@ -256,6 +256,13 @@
             bindings = <&kp RC(Z)>;
             label = "MACRO_J";
         };
+
+        R_3Cric_macro: R_3Cric_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp MB2 &mkp MB2 &mkp MB2>;
+            label = "R_3CRIC_MACRO";
+        };
     };
 
     behaviors {
@@ -355,7 +362,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                                  &kp RS(RG(S))        &trans            &kp RG(UP_ARROW)    &trans                   &kp RA(F4)
 &trans  &trans  &trans  &trans  &trans  &trans      &kp RG(D)           &trans               &kp RS(RG(LEFT))  &kp RG(DOWN_ARROW)  &kp RS(RG(RIGHT_ARROW))  &kp GRAVE
-&trans  &trans  &trans  &trans  &trans  &trans      &kp RG(LEFT_ARROW)  &kp RG(RIGHT_ARROW)  &trans            &kp INT_MUHENKAN    &kp LANGUAGE_6           &to_layer_0 INT_MUHENKAN
+&trans  &trans  &trans  &trans  &trans  &trans      &kp RG(LEFT_ARROW)  &kp RG(RIGHT_ARROW)  &R_3Cric_macro    &kp INT_MUHENKAN    &kp LANGUAGE_6           &to_layer_0 INT_MUHENKAN
 &trans  &trans  &trans  &trans  &trans  &trans      &trans              &trans                                                                              &to_layer_0 INT_HENKAN
             >;
         };
